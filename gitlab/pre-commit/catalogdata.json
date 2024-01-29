@@ -1,0 +1,11 @@
+{
+    "description": "Repository to host pre-commit image that can be used for CI/CD processes. Source of the image is available https://github.com/gyalai-aws/docker-images-for-ci",
+    "architectures": [
+        "x86", "arm64"
+    ],
+    "operatingSystems": [
+        "Linux"
+    ],
+    "aboutText": "This repository is used as part of the CI/CD process for our project in Gitlab to provide baseimage for executing pre-commit steps.",
+    "usageText": "This repository is free to use for anyone who thinks it is useful. Enjoy."
+}
