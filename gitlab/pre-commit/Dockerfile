@@ -33,7 +33,7 @@ FROM public.ecr.aws/docker/library/node:${NODE_JS_VERSION} AS nodejs
 FROM core
 
 # Move NodeJS official docker files as a layer
-COPY --from=nodejs /usr/local /usr
+COPY --from=nodejs /usr/local /usr/
 
 ARG PRE_COMMIT_VERSION=3.6.0
 ARG PIPENV=2023.11.17
